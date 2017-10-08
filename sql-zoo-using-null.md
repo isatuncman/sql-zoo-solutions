@@ -1,9 +1,9 @@
 __1)__ List the teachers who have NULL for their department.
 
 
-SELECT t.name
-FROM teacher t
-WHERE t.dept IS NULL ;
+SELECT t.name  
+FROM teacher t  
+WHERE t.dept IS NULL;  
 
 
 __2)__ Note the INNER JOIN misses the teachers with no department and the departments with no teacher.
